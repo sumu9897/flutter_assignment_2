@@ -28,9 +28,9 @@ class MyApp extends StatelessWidget {
                 'Welcome to Flutter!',
                 style: TextStyle(fontSize: 20),
               ),
-              SizedBox(height: 20), // Adding space between elements
+              SizedBox(height: 20),
               Image.asset(
-                'assets/flutter.png', // Load image from assets
+                'assets/flutter.png',
                 width: 200,
                 height: 200,
               ),
@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
                 },
                 child: Text('Press Me'),
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.green, // Change the button color to green
+                  backgroundColor: Colors.green,
                 ),
               ),
             ],
